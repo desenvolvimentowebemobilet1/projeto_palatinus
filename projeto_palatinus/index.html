@@ -5,12 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
-        <title>Platinus</title>
+        <title>Palatinus</title>
+        <style>
+            @font-face {
+                font-family:'london';
+                src: url('fontes/Olondon_.otf') format('opentype'), url('fontes/OldLondon.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1 {
+                font-family: 'london', Times, serif;
+                font-weight: normal ;
+            }
+        </style>
     </head>
-    <body>
+    <body class="fundo">
         <header>
             <div class="center">
-                <div class="logo"></div><!--logo-->
+                <div><img class="logo" src="img/logo.jpeg" alt="Logo"></div><!--logo-->
                 <nav class="desktop">
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
@@ -30,7 +45,22 @@
             </div><!--center-->
         </header>
         <!-- HEADER FINALIZADO!!!!   OBS: FALTA APENAS DEFINIR AS CORES E COLOCAR A LOGO -->
+        <main> 
+                <div class="tituloprincipal">
+                    <h1 class="titulo">Palatinus</h1>
+                    <h2 class="titulo1"> Barbearia</h2>
+                    <img class="img" src="img/img-.png" alt="">
+                    
+                </div>
 
+                    <div >
+                        <h4 class="subtitulo">"Um corte de cabelo bem-feito é a <br> moldura perfeita para um rosto confiante."</h4>
+                        <button class="botão"><a class="linkbotão" href="https://web.suaagenda.net/c/palatinus_barbearia_79709" target="_blank" rel="external">
+                            Agende seu Horário </a>
+                        </button>
+                    </div>
+                    
+        </main>
         
         <script src="js/jquery-3.6.4.min.js"></script>
         <script src="js/script.js"></script>

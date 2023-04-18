@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .center{
@@ -13,7 +13,10 @@
     max-width: 1240px;
     width: 100%;
 }
-
+.fundo{
+    background: rgba(7, 7, 7, 0.527) url(madeira.jpg);
+    background-blend-mode: darken;
+}
 
 /*Fim Reset */
 
@@ -27,14 +30,15 @@ header .center{
 header{
     border: 1px solid black;
     padding: 10px 2%;
-    background-color: beige;
+    background-color:rgba(230, 120, 10, 0.479);
 }
 
 
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #ccc;
+    border-radius: 30%;
 }
 
 nav.desktop ul{
@@ -49,7 +53,7 @@ nav.desktop ul li{
 
 nav.desktop ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav.desktop ul li a:hover{
@@ -95,7 +99,64 @@ nav.mobile ul li a:hover{
 
 /* Fim header */
 
+/* inicio do main*/
+.titulo{
+    color:white;
+    font-size: 800%;
+    margin-left: 10%;
+    margin-top: 5%; 
+       
+}
+.titulo1{
+    color:white;
+    font-size: 250%;
+    margin-top: 14%; 
+    margin-left: -14%;
+   
+}
+.tituloprincipal{  
+    display: flex;
+    
+} 
 
+.img{
+    width: 40%;
+    margin-left: 20%;
+    margin-top:3%;
+    text-align: right; 
+    
+
+}
+.subtitulo{
+    color: white;
+    font-size: 180%;
+    color: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:left;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: -18%;
+}
+.botão{
+   margin-left: 10%; 
+   margin-top: 3%;
+   width: 190px;
+   height: 40px;
+   border-radius: 10px;
+   cursor: pointer;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 100%;  
+}
+.botão:hover{
+    background-color: rgba(255, 153, 0, 0.137);
+}
+.linkbotão{
+    text-decoration: none;
+    color: black;
+    font-family: Times, serif;
+    font-weight: bold;
+
+}
 
 
 
@@ -108,6 +169,8 @@ nav.mobile ul li a:hover{
     nav.desktop{
         display: none;
     }
+
+    
 }
 /* ////////////////////////////////////////////////// */
 
